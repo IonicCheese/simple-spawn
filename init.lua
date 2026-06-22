@@ -8,7 +8,7 @@ core.register_on_joinplayer(function(player, lastlogin)
     end
 
     player:set_pos(spawn)
-    return true, spawn
+    return true
 end)
 
 core.register_chatcommand("spawn", {
